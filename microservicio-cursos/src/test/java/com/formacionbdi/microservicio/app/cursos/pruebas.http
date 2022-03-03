@@ -1,0 +1,24 @@
+GET localhost:8090/api/cursos
+
+
+###
+POST localhost:8090/api/cursos
+Content-Type: application/json
+
+{
+"nombre": "ed fisica"
+
+}
+
+
+###
+PUT localhost:8090/api/cursos/3
+Content-Type: application/json
+
+{
+  "nombre": "PROGRAMACION1"
+
+}
+
+###
+DELETE localhost:8090/api/cursos/2

@@ -1,0 +1,6 @@
+com\formacionbdi\microservicio\app\cursos\services\CursoServiceImpl.class
+com\formacionbdi\microservicio\app\cursos\controllers\CursoController.class
+com\formacionbdi\microservicio\app\cursos\MicroservicioCursosApplication.class
+com\formacionbdi\microservicio\app\cursos\models\entity\Curso.class
+com\formacionbdi\microservicio\app\cursos\services\CursoService.class
+com\formacionbdi\microservicio\app\cursos\models\repository\CursoRepository.class
