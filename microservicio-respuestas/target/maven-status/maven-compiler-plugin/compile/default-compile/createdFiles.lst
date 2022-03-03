@@ -1,0 +1,3 @@
+com\formacionbdi\microservicio\respuestas\models\entity\Respuesta.class
+com\formacionbdi\microservicio\respuestas\MicroservicioRespuestasApplication.class
+com\formacionbdi\microservicio\respuestas\models\repository\RespuestaRepository.class
