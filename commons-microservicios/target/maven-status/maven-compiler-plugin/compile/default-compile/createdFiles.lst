@@ -1,0 +1,4 @@
+com\formacionbdi\microservicios\app\commons\controller\CommonController.class
+com\formacionbdi\microservicios\app\commons\service\CommonService.class
+com\formacionbdi\microservicios\app\commons\CommonsMicroserviciosApplication.class
+com\formacionbdi\microservicios\app\commons\service\CommonServiceImpl.class
