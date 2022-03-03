@@ -1,0 +1,4 @@
+com\formacionbdi\microservicios\commons\examenes\CommonsExamenesApplication.class
+com\formacionbdi\microservicios\commons\examenes\models\entity\Pregunta.class
+com\formacionbdi\microservicios\commons\examenes\models\entity\Examen.class
+com\formacionbdi\microservicios\commons\examenes\models\entity\Asignatura.class
