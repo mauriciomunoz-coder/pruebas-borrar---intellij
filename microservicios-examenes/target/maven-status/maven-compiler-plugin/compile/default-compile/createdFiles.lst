@@ -1,0 +1,6 @@
+com\formacionbdi\microservicios\app\examenes\MicroserviciosExamenesApplication.class
+com\formacionbdi\microservicios\app\examenes\models\repository\ExamenRepository.class
+com\formacionbdi\microservicios\app\examenes\services\ExamenService.class
+com\formacionbdi\microservicios\app\examenes\models\repository\AsignaturaRepository.class
+com\formacionbdi\microservicios\app\examenes\services\ExamenServiceImpl.class
+com\formacionbdi\microservicios\app\examenes\controllers\ExamenController.class
