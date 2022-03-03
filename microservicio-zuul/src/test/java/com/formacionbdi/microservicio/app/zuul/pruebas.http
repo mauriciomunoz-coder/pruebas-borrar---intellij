@@ -1,0 +1,206 @@
+PUT localhost:8090/api/cursos/5/asignar-examenes
+Content-Type: application/json
+
+[
+  {
+    "id": 9,
+    "nombre": "examen de historia",
+    "createAt": "2022-02-21T15:43:26.344+00:00",
+    "preguntas": [
+      {
+        "id": 18,
+        "texto": "primera pregunta1"
+      }
+    ]
+  }
+]
+
+###
+GET localhost:8090/api/cursos
+
+
+###
+PUT localhost:8090/api/cursos/3/asignar-alumnos
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "nombre": "maurici1o",
+    "apellido": "cardozo",
+    "email": "cardozo@mail.com",
+    "createAt": "2022-02-17T12:54:09.000+00:00"
+  }
+]
+
+###
+PUT localhost:8090/api/cursos/4/eliminar-alumno
+Content-Type: application/json
+
+
+{
+  "id": 1,
+  "nombre": "maurici1o",
+  "apellido": "cardozo",
+  "email": "cardozo@mail.com",
+  "createAt": "2022-02-17T12:54:09.000+00:00"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+GET localhost:8090/api/alumnos/paginable?page=0&size=4
+
+###
+POST localhost:8090/api/alumnos
+Content-Type: image/jpeg
+
+{
+"nombre": "camila",
+  "apellido": "nuñez",
+  "email": "majjua@mail.com"
+
+}
+
+
+###
+GET localhost:8090/api/alumnos/uploads/img/1
+
+
+###
+GET localhost:8090/api/cursos/alumno/3
+
+
+
+
+
+
+
+
+
+###
+GET localhost:8090/api/examenes
+
+###
+GET localhost:8090/api/examenes/7
+
+
+###
+POST localhost:8090/api/examenes
+Content-Type: application/json
+
+
+{
+  "nombre": "examen de historia3",
+  "preguntas": [
+    {
+      "texto": "Quien descubrio a America"
+    },
+    {
+      "texto": "En que año se  descubrio a America"
+    },
+    {
+      "texto": "Capital del Imperio Inca"
+    }
+  ]
+}
+
+
+###
+PUT localhost:8090/api/examenes/9
+Content-Type: application/json
+
+{
+  "nombre": "examen de historia",
+  "preguntas": [
+    {
+      "id": 30,
+      "texto": "Quien descubrio a America"
+    },
+    {
+      "id": 31,
+      "texto": "En que año se  descubrio a America"
+    }
+
+  ]
+}
+
+
+###
+GET localhost:8090/api/examenes/filtrar/historia
+
+
+###
+GET localhost:8090/api/examenes/asignaturas
+
+###
+POST localhost:8090/api/cursos
+Content-Type: application/json
+
+{
+  "nombre": "calculo vectorial"
+}
+
+
+
+###
+POST localhost:8090/api/respuestas
+Content-Type: application/json
+
+[
+  {"texto":"Cristobal Colon",
+    "alumno":{
+
+      "id": 6,
+      "nombre": "mariana",
+      "apellido": "muñoz",
+      "email": "marianita@mail.com",
+      "createAt": "2022-02-18T19:44:49.577+00:00",
+      "fotoHashCode": null
+    },
+    "pregunta":          {
+      "id": 30,
+      "texto": "Quien descubrio a America"
+    }
+  },
+  {"texto":"1405",
+    "alumno":      {
+      "id": 6,
+      "nombre": "mariana",
+      "apellido": "muñoz",
+      "email": "marianita@mail.com",
+      "createAt": "2022-02-18T19:44:49.577+00:00",
+      "fotoHashCode": null
+    },
+    "pregunta":          {
+      "id": 31,
+      "texto": "En que año se  descubrio a America"
+    }
+  }
+
+]
+
+### respondiendo preguntas
+GET localhost:8090/api/respuestas/alumno/6/examen/9
+
+
+###
+GET localhost:8090/api/respuestas/alumno/6/examenes-respondidos
+
+###
+GET localhost:8090/api/cursos/alumno/1
+
+
+
